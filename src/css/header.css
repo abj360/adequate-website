@@ -1,0 +1,83 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #008000; /* Company green color */
+    text-decoration: none;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    position: relative;
+    margin: 0 15px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+}
+
+.nav .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 10px;
+}
+
+.nav li:hover .dropdown {
+    display: block;
+}
+
+.header-cta {
+    display: flex;
+    gap: 10px;
+}
+
+.cta-button {
+    background-color: #DAA520; /* Company gold color */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.live-chat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.live-chat a {
+    background-color: #DAA520; /* Company gold color */
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 50%;
+    text-decoration: none;
+}

@@ -1,0 +1,27 @@
+/* src/components/socialMedia.css */
+
+.social-media {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.social-media h2 {
+    margin-bottom: 1rem;
+    color: #008000;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+.social-media img {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    transition: opacity 0.3s ease;
+}
+
+.social-media img:hover {
+    opacity: 0.8;
+}

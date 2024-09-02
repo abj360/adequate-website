@@ -1,0 +1,70 @@
+.testimonials {
+    padding: 60px 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.testimonials-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #008000; /* Company green color */
+    margin-bottom: 40px;
+}
+
+.testimonials-carousel {
+    display: flex;
+    overflow: auto;
+    gap: 20px;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+.testimonial-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: left;
+}
+
+.testimonial-quote {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.author-logo {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.author-info {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.author-name {
+    font-weight: bold;
+}
+
+.author-title {
+    color: #666;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #DAA520; /* Company gold color */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+}

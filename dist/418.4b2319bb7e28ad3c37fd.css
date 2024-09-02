@@ -1,0 +1,37 @@
+.sustainability {
+    display: flex;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+}
+
+.sustainability-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.sustainability-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #008000; /* Company green color */
+    margin-bottom: 20px;
+}
+
+.sustainability-description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.125rem;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.sustainability-image {
+    flex: 1;
+}
+
+.sustainability-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+

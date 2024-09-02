@@ -1,0 +1,50 @@
+.industries {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+}
+
+.industries-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #008000; /* Company green color */
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.industries-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.industry-card {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.industry-card:hover {
+    transform: translateY(-10px);
+}
+
+.industry-icon img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.industry-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.industry-description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
