@@ -71,5 +71,5 @@ module.exports = {
         },
         runtimeChunk: 'single',
     },
-    mode: 'development', // Change to 'production' when building for production
+    mode: 'development',
 };
