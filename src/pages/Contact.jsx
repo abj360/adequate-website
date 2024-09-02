@@ -1,4 +1,3 @@
-// src/pages/Contact.jsx
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -9,14 +8,12 @@ import '../css/contact.css';
 
 const Contact = () => {
     return (
-        <div className="contact-container">
-            <Header />
-            <main>
+        <div className="content-wrapper">
+            <main className="content-section">
                 <ContactInfo />
                 <ContactForm />
                 <SocialMedia />
             </main>
-            <Footer />
         </div>
     );
 };

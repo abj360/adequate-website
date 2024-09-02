@@ -1,14 +1,17 @@
 import React from 'react';
 import '../css/header.css';
 import { Link } from 'react-router-dom';
+import logo from '../assets/images/adequate-oil-logo.jpg'; // Replace with your actual logo path
 
 const Header = () => {
     return (
-        <header>
+        <header className="header">
             <div className="logo">
-                <Link to="/">Adequate Oil and Gas</Link>
+                <Link to="/">
+                    <img src={logo} alt="Adequate Oil and Gas Logo" className="logo-image" />
+                </Link>
             </div>
-            <nav>
+            <nav className="nav">
                 <ul>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/about">About Us</Link></li>

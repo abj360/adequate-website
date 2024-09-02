@@ -5,6 +5,9 @@
     color: #ffffff; /* White text color */
     padding: 40px 20px;
     text-align: center;
+    position: relative; /* Ensure it doesn’t cover content */
+    margin-top: 40px; /* Add margin to ensure it doesn’t overlap content above */
+    width: 100%; /* Full width */
 }
 
 .footer-content {

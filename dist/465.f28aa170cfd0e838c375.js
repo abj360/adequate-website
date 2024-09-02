@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkadequate_oil_and_gas=self.webpackChunkadequate_oil_and_gas||[]).push([[465],{3465:(e,a,t)=>{t.r(a),t.d(a,{default:()=>s});var l=t(6540),n=t(7767);const s=()=>{const{id:e}=(0,n.g)();return l.createElement("div",null,l.createElement("h1",null,"Blog Post ",e))}}}]);

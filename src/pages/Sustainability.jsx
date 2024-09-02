@@ -5,10 +5,10 @@ import Footer from '../components/Footer';
 
 const Sustainability = () => {
     return (
-        <div>
-            <Header />
-            <SustainabilitySection />
-            <Footer />
+        <div className="content-wrapper">
+            <section className="content-section">
+                <SustainabilitySection />
+            </section>
         </div>
     );
 };

@@ -6,9 +6,11 @@ const BlogPost = () => {
 
     // Fetch blog post based on the ID or use static data
     return (
-        <div>
-            <h1>Blog Post {id}</h1>
-            {/* Render blog post content here */}
+        <div className="content-wrapper">
+            <section className="content-section">
+                <h1>Blog Post {id}</h1>
+                {/* Render blog post content here */}
+            </section>
         </div>
     );
 };

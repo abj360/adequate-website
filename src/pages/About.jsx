@@ -5,10 +5,10 @@ import Footer from '../components/Footer';
 
 const About = () => {
     return (
-        <div>
-            <Header />
-            <AboutUsSection />
-            <Footer />
+        <div className="content-wrapper">
+            <section className="content-section">
+                <AboutUsSection />
+            </section>
         </div>
     );
 };

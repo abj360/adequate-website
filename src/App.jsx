@@ -34,7 +34,9 @@ const App = () => {
                     <Route path="/contact" element={<Contact />} />
                 </Routes>
             </Suspense>
-            <Footer />
+            <section className="content-section">
+            	<Footer />
+            </section>
         </Router>
     );
 };

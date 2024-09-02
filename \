@@ -22,7 +22,7 @@
 
 .nav li {
     position: relative;
-    margin: 0 10px; /* Reduced margin to decrease spacing */
+    margin: 0 15px;
 }
 
 .nav a {
@@ -30,16 +30,18 @@
     color: #333;
     font-family: 'Lato', sans-serif;
     font-size: 1rem;
-    padding: 10px 10px; /* Add padding to make the area larger */
     display: block;
-    transition: background-color 0.3s, transform 0.3s; /* Transition for smooth effect */
+    padding: 10px 15px; /* Added padding for better visual */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
 }
 
+/* Hover effect for nav links */
 .nav a:hover {
-    background-color: #DAA520; /* Gold fill color */
-    color: #fff; /* White text color on hover */
-    border-radius: 5px;
-    transform: translateY(-3px); /* Slightly move up */
+    background-color: #DAA520; /* Gold */
+    color: #fff;
+    transform: translateY(-5px); /* Moves up */
+    border-radius: 5px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: shadow for better effect */
 }
 
 .nav .dropdown {

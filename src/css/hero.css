@@ -1,5 +1,4 @@
 .hero {
-    background: url('/src/assets/images/hero-background.jpg') no-repeat center center/cover;
     height: 500px;
     display: flex;
     align-items: center;
@@ -7,6 +6,8 @@
     color: #fff;
     text-align: center;
     position: relative;
+    overflow: hidden; /* Hide overflow to keep the effect clean */
+    transition: background-image 1s ease-in-out; /* Smooth transition for background change */
 }
 
 .hero-content {
